@@ -1,5 +1,5 @@
 # Download
-The latest version (1.0.0.2) is [here](https://github.com/dlebansais/PgBreeder-Disclosed/releases/download/v1.0.0.2/PgBreeder.exe) with updated [release notes](https://github.com/dlebansais/PgBreeder-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.0.0.3) is [here](https://github.com/dlebansais/PgBreeder-Disclosed/releases/download/v1.0.0.3/PgBreeder.exe) with updated [release notes](https://github.com/dlebansais/PgBreeder-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgBreeder
 This application helps players of Project: Gorgon (aka PG) to manage pets they breed with the Animal Husbandry skill. With PgBreeder you can:
