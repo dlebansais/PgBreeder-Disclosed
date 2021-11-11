@@ -7,14 +7,14 @@ This application helps players of Project: Gorgon (aka PG) to manage pets they b
 + Record info about pets like their parents, sex, stats and genes.
 + Capture genes from the game window quickly.
 + Obtain a summary of the quality of your pool of genes.
-+ Save information about each genes when you have figure it out.
++ Save information about each genes when you have figure them out.
 + Exchange genome information between players with Export & Import.  
 
 *Information about pets is saved in text files, I strongly recommend to archive them regularly. I also recommend to regularly export genome to a text file*. 
 
 # User Manual
 
-When you open up PgBreeder for the first time, it looks like this:
+When you start PgBreeder for the first time, it looks like this:
 
 ![Main application window](/Screenshots/main_window.png?raw=true "The main application window")
 
@@ -22,7 +22,7 @@ When you open up PgBreeder for the first time, it looks like this:
 
 Add a new pet with the **New Pet** button, then click **Capture**. This will open the gene scanner window (see below how to set it up). Once you have captured genes, and updated info about your pet, it will be automatically saved in you pet folder upon exit.
 
-You can change the pet folder to somewhere more convenient than the folder where PgBreeder.exe was copied (in particular, using `C:\Program Files` doesn't work well). However, when you change it you'll need to copy pet files manually and restart the application.
+You can change the pet folder to somewhere more convenient than the folder where PgBreeder.exe was copied to (in particular, using `C:\Program Files` doesn't work well). However, when you change it you'll need to copy pet files manually and restart the application.
 
 ### Stable
 
@@ -32,7 +32,7 @@ If a pet is pregant, or mating, it still cannot be used for breeding but that's 
 
 ### Pets tab
 
-This tab displays the genome of the currently selected pet. Double-click a gene to change how it modifies traits (if applicable). Once done, you can export this information in a text file with the Export button. Conversely, you can import what others have found and this new information will appear in tooltips.
+This tab displays the genome of the currently selected pet. Double-click a gene to change how it modifies traits (if applicable). Once done, you can export this information in a text file with the **Genome** button. Conversely, you can import what others have found and this new information will appear in tooltips.
 
 The *best pairing mate* is a suggestion, based on genes of pets of the opposite sex that are in stables and not busy, of the best pet to mate with for the purpose of obtaining recessive genes.
 
@@ -41,7 +41,7 @@ The *best pairing mate* is a suggestion, based on genes of pets of the opposite 
 This tab displays for each gene how easy it is to obtain new pets with recessive genes. It uses a combination of shape and color.
 
 + Red and dominant: none of your pets have any mixed or recessive version of this gene. New pets will always have it dominant.
-+ Red and mixed: at least one of your pet has this gene in mixed form. It can give birth to a new pet with this gene mixed as well, and with opposite sex. Mating them has then 25% chance to give a recessive version. For tis reason, this pool quality is called "second generation".
++ Red and mixed: at least one of your pet has this gene in mixed form. It can give birth to a new pet with this gene mixed as well, and with opposite sex. Mating them has then 25% chance to give a recessive version. For this reason, this pool quality is called "second generation".
 + Green and mixed: this gene is present as recessive in one of your pet, but not twice in pets of opposed sex. It always has a probability to end up mixed or dominant in offsprings. This is called a "first generation" gene.
 + Green and recessive: this gene is present as recessive in at least two pets of opposed sex. Mating them will always result in a recessive version of the gene. 
 
@@ -60,9 +60,13 @@ The interface of the gene scanner is similar to that found in [PgSurveyor](https
 
 ![Scanner window](/Screenshots/scanner_window.png?raw=true "The scanner window")
 
-+ Drag the top-left and bottom-right corner of the scanner border to align them with the gene window in the game. The border around the map window should adjust exactly around the top, left, right and bottom gene circles. The screenshot below shows a scanner ready to capture.
-+ Click the scan button to capture genes. These will appear as overlays over the game, but slightly transparent, and you can quickly check that they where all captured properly. If they were'nt, ajust borders and try again until you find a setting that works. The position of each corners will be saved when you return to the application (button at the bottom-left). 
++ Drag the top-left and bottom-right corner of the scanner border to align them with the gene window in the game. The border around the map window should adjust exactly around the top, left, right and bottom gene circles. The screenshot above shows a scanner ready to capture.
++ Click the scan button (bottom-right) to capture genes. These will appear as overlays over the game, but slightly transparent, and you can quickly check that they were all captured properly. If they weren't, ajust borders and try again until you find a setting that works. The position of each corners will be saved when you return to the application (button at the bottom-left). 
 + Fill other info about the pet that you know, and don't forget to give it a name!
+
+### New gene discovery
+
+If you capture genes of a **live** pet in the wild (or, for that matter, a lucky newborn pet), genes that improve your pool appear in *orange*. Genes that don't appear in *green*.
 
 # Certification
 
