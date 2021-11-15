@@ -1,5 +1,5 @@
 # Download
-The latest version (1.0.0.3) is [here](https://github.com/dlebansais/PgBreeder-Disclosed/releases/download/v1.0.0.3/PgBreeder.exe) with updated [release notes](https://github.com/dlebansais/PgBreeder-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.0.0.6) is [here](https://github.com/dlebansais/PgBreeder-Disclosed/releases/download/v1.0.0.6/PgBreeder.exe) with updated [release notes](https://github.com/dlebansais/PgBreeder-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgBreeder
 This application helps players of Project: Gorgon (aka PG) to manage pets they breed with the Animal Husbandry skill. With PgBreeder you can:
@@ -34,7 +34,11 @@ If a pet is pregant, or mating, it still cannot be used for breeding but that's 
 
 This tab displays the genome of the currently selected pet. Double-click a gene to change how it modifies traits (if applicable). Once done, you can export this information in a text file with the **Genome** button. Conversely, you can import what others have found and this new information will appear in tooltips.
 
-The *best pairing mate* is a suggestion, based on genes of pets of the opposite sex that are in stables and not busy, of the best pet to mate with for the purpose of obtaining recessive genes.
+The *best pairing mate* is a suggestion, based on genes of pets of the opposite sex that are in stables and not busy, of the best pet to mate with for the purpose of obtaining recessive genes. Three calculations are made:
+
++ A generic score, where a resulting mixed gene counts for 1/2 and a recessive gene for 1.
++ A recessive score, where only recessive resulting genes count (useful when optimizing a pool).
++ A traits score, where each gene count based on its effect on traits (useful when breeding for optimized battlefield traits). All traits are considered of equal value for now, except that Virility/Fertility doesn't count.
 
 ## Pool
 
