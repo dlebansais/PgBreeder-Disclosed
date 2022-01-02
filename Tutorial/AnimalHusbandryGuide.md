@@ -1,18 +1,18 @@
 # Animal Husbandry Guide
 
-[Animal Husbandry](http://wiki.projectgorgon.com/wiki/Animal_Husbandry) (AHu) is a subskill of [Animal Handling](http://wiki.projectgorgon.com/wiki/Animal_Handling) (AH) in Project: Gorgon. This guide aims to give the reader an overview of the Husbandry skill, and some advice regarding breeding strategies.
+[Animal Husbandry](http://wiki.projectgorgon.com/wiki/Animal_Husbandry) (AHu) is a subskill of [Animal Handling](http://wiki.projectgorgon.com/wiki/Animal_Handling) (AH) in Project: Gorgon. This guide aims at giving the reader an overview of the Husbandry skill, and some advice regarding breeding strategies.
 
 ## Overview of breeding
 
 Players using Animal Handling need a pet. Pets can be tamed in the wild, bought from other players in the form of caged bred pets (more about that later), or created from existing pets using Animal Husbandry.
 
-A player keeps their pets in their stable, in slots. The process for creating a new pet from existing ones using AHU is fairly straightforward. At one of the stables that allow it ([Leah Bowman](http://wiki.projectgorgon.com/wiki/Leah_Bowman) in Povus or [Arianna Fangblade](http://wiki.projectgorgon.com/wiki/Arianna_Fangblade) in Red Wing Casino), and after making sure one of the stable slot is empty, select the Husbandry menu. Then, follow the process of:
+A player keeps their pets in their stable, in slots. The process for creating a new pet from existing ones using AHU is fairly straightforward. At one of the stables that allow it ([Leah Bowman](http://wiki.projectgorgon.com/wiki/Leah_Bowman) in Povus or [Arianna Fangblade](http://wiki.projectgorgon.com/wiki/Arianna_Fangblade) in Red Wing Casino), and after making sure one of the stable slot is empty, select the "Husbandry" menu. Then, follow the process of:
 
 + Selecting a male pet.
 + Selecting a female pet that can be paired with the previously selected male (different species can't pair most of the time, but for instance bees and wasps can). 
 + Confirm the mating.
 
-Once started the empty slot is reserved for mating, which takes a few hours, and if successful reserved for the future baby pet. This last step can takes days, during which the female partner is "pregnant" and cannot be used for AH or other breeding attempts, while the male just need a few hours to recover.
+Once started the empty slot is reserved for mating, which takes a few hours, and if successful is reserved for the incoming baby pet. This last step can takes days, during which the female partner is "pregnant" and cannot be used for AH or other breeding attempts, while the male just need a few hours to recover.
 
 Note that it means the same male can be used for several almost-simultaneous breeding attempts with different females, a distinction that matters when maintaining a livestock of pets of different sex.
 
@@ -33,7 +33,7 @@ Breeding can take place without being concerned with genetics, but with the help
 Improved, in this context, means several things :
 
 + Genes control the aspect of pets, which means that it is possible to select offspring for the purpose of, for instance, obtaining new pets with the desired color, or shape.
-+ Genes also control pet "traits", how powerful they are (see [The Traits of a Pet](http://wiki.projectgorgon.com/wiki/The_Traits_of_a_Pet) for the meaning of each trait). Combining pets with different trait values result in offspring that have sometimes better, and sometimes worse, traits. Knowing how genes are combined helps predicting the result of breeding, toward improved pets.
++ Genes also control pet "traits", how powerful they are (see [The Traits of a Pet](http://wiki.projectgorgon.com/wiki/The_Traits_of_a_Pet) for the meaning of each trait). Combining pets with different trait values result in offspring that have sometimes better, and sometimes worse, traits. Knowing how genes are combined helps to predict the result of breeding, toward improved pets.
 
 In the remaining of this guide, we will focus on traits, because they are easier to reason about.
 
@@ -60,13 +60,13 @@ In the gene window, if one hovers with the mouse over one of the circles, the ge
 Each gene has two roles:
 
 + Appearance: the gene adds, or subtracts, a number to a counter associated to the appearance. For example, for "Antenna Scale" that would be the size of the antenna. This guide does not elaborate on that.
-+ Trait: the gene also adds, or subtracts, a value to one of the pet traits. In the exemple above, since the gene value is dominant (a filled circle), the gene number is subtracted and this result in a worse pet than if the gene value was recessive. Because, in that case, the gene number would not be subtracted.
++ Trait: the gene also adds, or subtracts, a number to one of the pet traits. In the exemple above, since the gene value is dominant (a filled circle), the gene number is subtracted and this result in a worse pet than if the gene value was recessive. Because, in that case, the gene number would not be subtracted.
 
 (Note that a gene with mixed value acts the same as if it had dominant value. In the rest of this guide, we will ignore the distinction.)
 
 Some genes subtract a number if dominant, others add a number if recessive. Overall, a recessive gene value therefore always result in an increase in the associated trait, and a dominant gene always a decrease.
  
-Gene values vary from pets to pets, but roles don't change. The goal then, at least to increase pet traits, is to make sure that no number is subtracted, and that all numbers that could be added are, and consequently, to have all genes (or at least as many as possible) associated to a trait have a recessive value.
+Gene values vary from pets to pets, but roles don't change. The goal then, at least to increase pet traits, is to make sure that no number is subtracted, and that all numbers that could be added are, and consequently, to have all genes (or at least as many as possible) associated to a trait to have a recessive value.
 
 ### Combining genes
 
@@ -92,11 +92,11 @@ Looking back at the gene window, with max skill level in genetics, you'll notice
 
 This means that in practice the number for all genes of chromosome 7 is always, or almost always, subtracted from the trait.
 
-This is a key issue: because the genome of parent has genes that are almost always dominant, the total of added and subtracted numbers for traits is inherently limited.
+This is a key issue: because the genome of parents has genes that are almost always dominant, the total of added and subtracted numbers for traits is inherently limited.
 
 ## Monster genes
 
-If players could use their own pets and no others, genes dominant for all pets in the stable would be impossible to improve. As a matter of fact, players cannot exchange breeding pets: a caged pet is always turned to neutral genre, and cannot participate to breeding. Trading with other players is not the solution
+If players could use their own pets and no others, genes dominant for all pets in the stable would be impossible to improve. As a matter of fact, players cannot exchange breeding pets: a caged pet is always turned to neutral genre, and cannot participate to breeding. Trading with other players is not the solution.
 
 However, there is another source of new pets: tamed monsters. Taming sends a captured pet to the stable, and it can then immediately start mating.
 
@@ -114,7 +114,7 @@ This section offers advices for selecting which combination of parents to breed 
 
 The game doesn't tell you what a gene number is, other than its sign. For instance we saw before that the tooltip for the 17th gene of chromosome 7 is "Friendliness-". So we know a dominant gene decreases friendliness, but how much?
 
-This number is the same for everyone, so you can just ask other players to share what they discovered. But they of course had to figure it out themselves at some point. So, how to proceed? Here is the general idea: if two pets have close enough gene values in such way that there is only one gene that affects friendliness that has a different value (one pet has it recessive, the other not) then the difference is immediately obtained by subtracting their friendliness.
+This number is the same for everyone, so you can just ask other players to share what they discovered. But they of course had to figure it out themselves at some point. So, how to proceed? Here is the general idea: if two pets have close enough gene values in such a way that there is only one gene that affects friendliness that has a different value (one pet has it recessive, the other not) then the difference is immediately obtained by subtracting their friendliness.
 
 To make it concrete by example, say "Baby Fairy Bee 1" has the 17th gene of chromosome 7 dominant (or mixed, it's the same), while "Baby Fairy Bee 2" has it recessive. If "Baby Fairy Bee 1" has friendliness 45 and "Baby Fairy Bee 2" friendliness 52 then the gene number is 45 - 52 = -7.
 
@@ -140,7 +140,7 @@ When planning breeding in the long term, there are several things to consider:
 + You can buy stable slots, but again there is a maximum and most players will not have a livestock bigger than 20 pets.
 + Breeding costs money, and if you want to speed it, resources, though it's not a big issue if you're focusing on this feature of the game.
 + About half of your livestock will be male, and the other half female, but be careful not to have too many males. Remember that males don't stay pregnant and can participate to new breeding attempts more quickly than females. This said, you still need to maintain good values for genes on both males and females, which divides your number of slots by half.
-+ You might want to breed more than one specie. For instance, if you focus on bees only than your entire stable can be dedicated to bee pets. But if you want to have say maxed out bees and wasps in the end, you need to be careful: when mating a bee and a wasp, the chance of obtaining either is based on intelligence. If your livestock of bees (for instance) outgrows wasps by intelligence, or worse if you plan to introduce wild wasps only at the end, babies will almost always be bees and it might prove very difficult to create a maxed out wasp.
++ You might want to breed more than one specie. For instance, if you focus on bees only, then your entire stable can be dedicated to bee pets. But if you want to have say maxed out bees and wasps in the end, you need to be careful: when mating a bee and a wasp, the chance of obtaining either is based on intelligence. If your livestock of bees (for instance) outgrows wasps by intelligence, or worse if you plan to introduce wild wasps only at the end, babies will almost always be bees and it might prove very difficult to create a maxed out wasp.
 + This is even worse when breeding species that cannot mix, like bees/wasps and cats.
 
 For these reasons, it is important to decide for a strategy that can work in a slot-constrained environment. This guide suggests a strict minimum of 6 slots per specie, and leave it to you to increase the number of slots at the expense of breeding less species.
@@ -161,7 +161,7 @@ We have seen that all genes in chromosome 7 are rare (though no proof was given)
 
 The idea is to analyze a lot, and with the help of statistics find rare genes by deciding of a threshold (say, 5%) then counting how often a gene has recessive value, and label "rare" those genes whose count is below the threshold.
 
-As a reminder, it is possible to analyze genes of a dead creature. Hence determine rarity just kill and analyze a lot of monsters, until you have convincing statistics.
+As a reminder, it is possible to analyze genes of a dead creature. Hence to determine rarity just kill and analyze a lot of monsters, until you have convincing statistics.
 
 On a side note, rarity is the same for all players. This is typically a work that can be shared.
 
@@ -176,7 +176,7 @@ More specifically, we start like this:
 2- F: RD...DD
 ```
 
-Where 1 and 2 are the first two slots in the stable, M means male and F female, and D, R (and below, x) indicate dominant or recessive values (and mixed, respectively).
+Where 1 and 2 are the first two slots in the stable, M means male and F female, and D, R (and below, x) indicate dominant or recessive values (and mixed) respectively.
 
 Say we capture a new pet with the following gene values:
 
@@ -218,17 +218,15 @@ There are more question marks now, because the result is probabilistic. However,
 3- M: DD...DR
 4- ?: xD...Dx
 5- ?: ?D...D?
-6- M: ?D...DR
+6- M: xD...DR
 ```
 
-This combination of getting a male with the last gene recessive had 1 chance out of 4 to occur, but now we can replace the pet in slot 3 with that one from slot 6:
+This combination of getting a male with the first gene mixed and the last gene recessive had 1 chance out of 8 to occur, but now we can replace the pet in slot 3 with that one from slot 6:
 
 ```
 1- M: RD...DD
 2- F: RD...DD
-3- M: ?D...DR
-4- ?: xD...Dx
-5- ?: ?D...D?
+3- M: xD...DR
 ```
 
 Then breed 3 and 2, with 50% chance to obtain the first gene as recessive:
@@ -236,9 +234,7 @@ Then breed 3 and 2, with 50% chance to obtain the first gene as recessive:
 ```
 1- M: RD...DD
 2- F: RD...DD
-3- M: ?D...DR
-4- ?: xD...Dx
-5- ?: ?D...D?
+3- M: xD...DR
 6- ?: RD...DR
 ```
 
@@ -247,9 +243,7 @@ And now we got one baby that is better than either the male or the female we sta
 ```
 1- M: RD...DD
 2- F: RD...DR
-3- M: ?D...DR
-4- ?: xD...Dx
-5- ?: ?D...D?
+3- M: xD...DR
 ```
 
 The new gene is now in the stable in the form of a good female. We can repeat the process until we get a male, and then get rid of all extra intermediate pets we no longer need. This gives us at the end:
